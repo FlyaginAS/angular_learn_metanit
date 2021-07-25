@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
     
 @Component({
     selector: 'purchase-app',//куда отрисовать
-    templateUrl: './app.component.html',
+    template: `<child-comp><p>This will include in ng-content</p></child-comp>
+                <p>Привет {{name}}</p>`,
     styleUrls:['./app.component.css'],
 })
 
