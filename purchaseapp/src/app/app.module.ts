@@ -10,3 +10,4 @@ import { AppComponent }   from './app.component';
 export class AppModule { }
 
 //modules
+//loading app
