@@ -14,8 +14,8 @@ class Item{
 }
  
 @Component({
-    selector: 'purchase-app',
-    template: `<div class="page-header">
+    selector: 'purchase-app',//куда отрисовать
+    template: `<div class="page-header">  
         <h1> Список покупок </h1>
     </div>
     <div class="panel">
