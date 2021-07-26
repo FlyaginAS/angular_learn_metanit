@@ -13,3 +13,6 @@ p {
 .bred {
   background-color: red;
 }
+.child-comp {
+  color: blue;
+}
